@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react react-dom next @material-ui/core @material-ui/icons
+
+PATH: 
+  C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\app\oracle\client12c\product\12.1.0\client\bin;C:\Program Files\CyberSafe\bin;C:\Program Files (x86)\CyberSafe\bin;C:\Program Files (x86)\Java\jre6\bin;C:\Program Files\Java\jre6\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\OpenText\Viewer\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Users\FELIXA4\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\FELIXA4\AppData\Local\Programs\Python\Python37-32\;C:\Users\FELIXA4\AppData\Local\Microsoft\WindowsApps;C:\Users\FELIXA4\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2\bin;C:\Users\FELIXA4\.dotnet\tools;C:\Users\FELIXA4\AppData\Local\Yarn\bin;C:\Users\FELIXA4\AppData\Local\GitHubDesktop\bin;C:\Users\FELIXA4\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.9.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141292:19)
+      at Object.onceWrapper (events.js:427:28)
+      at ClientRequest.emit (events.js:321:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:714:9)
+      at Object.onceWrapper (events.js:427:28)
+      at TLSSocket.emit (events.js:321:20)
+      at TLSSocket.Socket._onTimeout (net.js:478:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "next-fb-cms-starter",
+    "version": "1.0.0",
+    "description": "Application starter template using Next.js, Firebase, Strapi (CMS) and Apollo with GraphQL",
+    "main": "index.js",
+    "author": "Austin Felix",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

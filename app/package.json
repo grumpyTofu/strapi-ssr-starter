@@ -1,0 +1,32 @@
+{
+  "name": "next-fb-cms-starter",
+  "version": "1.0.0",
+  "description": "Application starter template using Next.js, Firebase, Strapi (CMS) and Apollo with GraphQL",
+  "main": "index.js",
+  "author": "Austin Felix",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.9.1",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link-http": "^1.5.16",
+    "clsx": "^1.1.0",
+    "core-js": "^3.6.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.1",
+    "next-with-apollo": "^5.0.0",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
