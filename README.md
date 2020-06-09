@@ -1,4 +1,4 @@
-# **ssr-starter**
+# **strapi-ssr-starter**
 Project quickstarter for SSR with Express.js and Next.js.
 
 ## Libraries used in project:
